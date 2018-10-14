@@ -15,7 +15,8 @@ body{
   padding-bottom: 100px;
   width:100%;
   min-height: 100vh;
-  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
+  background: url('../img/common/illustrations-01.png') no-repeat center center fixed;
+  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -23,21 +24,51 @@ body{
 }
 
 /*Cards*/
-.card{border: none; background-color: transparent;}
+.card{
+	border: none;
+	background-color: transparent;
+}
 
 /*Navbar Rules*/
 img.nav-bar-img{
 	margin-right: 10px;
 }
 
-.navbar{
-	background-color: #fff;
+.navbar-nav.ml-auto{
+	background-color: #000;
+	padding-left: 30px;
+	padding-right: 30px;
+}
 
+.navbar{
+	background-color: none;
+	font-size: 14px;
+	text-transform: lowercase;
 }
 
 a.navbar-brand{
 	font-family:'Montserrat', Sans-Serif;
-	font-size:
+}
+
+.navbar a.nav-item.nav-link{
+	background-color: #000;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.navbar a.nav-item.nav-link:hover,
+.navbar a.nav-item.nav-link.active:hover{
+	background-color: rgba(255, 255, 255, 0.9);
+	color: #000;
+}
+
+.navbar a.nav-item.nav-link.active{
+	color: #fff;
+	font-weight: bold;
+}
+
+.navbar-toggler {
+	border: none;
 }
 
 /*Floating Nav*/
@@ -48,7 +79,7 @@ a.navbar-brand{
 }
 
 	a.float-nav-link{
-		font-family: 'Lato', Sans-Serif;
+		font-family: 'Avenir', Sans-Serif;
 		color: #595959;
 		font-size: 14px;
 		font-weight: 600;
@@ -65,16 +96,20 @@ img{
 
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
-	font-family:'Montserrat', Sans-Serif;
-	margin-bottom: 20px;
+	font-family:'Avenir', Sans-Serif;
+	margin-bottom: 0px;
 }
 	h1.welcome-special{
-		font-size: 90px;
+		font-size: 100px;
+		color: #000;
 	}
 
 	h2.welcome-special-sub{
-		font-family: 'Lato', Sans-Serif;
-		font-size: 30px;
+		font-family: 'Avenir', Sans-Serif;
+		font-size: 20px;
+		font-weight: lighter;
+		color: #000;
+		text-transform: lowercase;
 	}
 
 	h3{
@@ -124,6 +159,7 @@ span.img-caption{
 .welcome-button:hover{
 	background-color: #000;
 	border-color: #000;
+	color: #fff;
 }
 
 .master-heading{
