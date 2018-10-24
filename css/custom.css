@@ -1,10 +1,7 @@
-/*This Custom CSS file has not been structured in any particular order.
-
-Modify this file to your hearts content and make your website look awesome!*/
 
 
 body{
-	background-color: #ebebeb;
+	background-color: #fff;
 	padding-top: 80px;
 }
 
@@ -30,6 +27,10 @@ body{
 }
 
 /*Navbar Rules*/
+.navbar.fixed-top.navbar-expand-lg.navbar-light{
+	background: rgba(255, 255, 255, 0.9);
+}
+
 img.nav-bar-img{
 	margin-right: 10px;
 }
@@ -58,7 +59,7 @@ a.navbar-brand{
 
 .navbar a.nav-item.nav-link:hover,
 .navbar a.nav-item.nav-link.active:hover{
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: #37C9C9;
 	color: #000;
 }
 
@@ -67,7 +68,7 @@ a.navbar-brand{
 	font-weight: bold;
 }
 
-.navbar-toggler {
+.navbar-toggler{
 	border: none;
 }
 
@@ -75,16 +76,25 @@ a.navbar-brand{
 .floating-nav{
 	position: fixed;
 	margin-top: 50px;
-	border-left: 1px solid #727272;
 }
 
-	a.float-nav-link{
-		font-family: 'Avenir', Sans-Serif;
-		color: #595959;
-		font-size: 14px;
-		font-weight: 600;
-		text-align: left;
-	}
+a.float-nav-link{
+	font-family: 'Avenir', Sans-Serif;
+	color: #000;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: left;
+}
+
+a.float-nav-link:hover{
+	border-left: 4px solid #37C9C9;
+}
+
+a.float-nav-link.active{
+	color: #37C9C9;
+	font-weight: bold;
+	border-left: 4px solid #37C9C9;
+}
 
 /*Image Rules*/
 img{
@@ -113,13 +123,13 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h3{
-		text-transform: uppercase;
-		color: #a49727;
+		/*text-transform: uppercase;*/
+		color: #000;
 		letter-spacing: -0.5px;
 	}
 
-p, li, span, a {
-	font-family: 'Lato', Sans-Serif;
+p, li, span, a{
+	font-family: 'Avenir', Sans-Serif;
 	text-align: justify;
 	font-weight: 300;
 }
@@ -147,19 +157,28 @@ span.img-caption{
 }
 
 .welcome-button{
-	background-color: transparent;
+	background-color: #fff;
 	border-radius: 0px 0px 0px 0px;
-	border: 3px solid #000;
+	border: 3px solid #37C9C9;
 	font-family:'Montserrat', Sans-Serif;
 	font-size: 15px;
-	color: #000;
+	color: #37C9C9;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .welcome-button:hover{
-	background-color: #000;
-	border-color: #000;
+	background-color: #37C9C9;
+	border-color: #37C9C9;
 	color: #fff;
+	font-weight: bold;
+}
+
+.welcome-button:active{
+	background-color: #2c9e9e;
+	border-color: #2c9e9e;
+	color: #fff;
+	font-weight: bold;
 }
 
 .master-heading{
@@ -167,7 +186,8 @@ span.img-caption{
 }
 
 .section-heading{
-	padding-top: 100px;
+	padding-top: 105px;
+	padding-bottom: 15px;
 }
 
 .slide-show{
@@ -180,6 +200,9 @@ span.img-caption{
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #989898;
-	border-top: 1px solid #727272;
+	background-color: #363636;
+}
+
+.footer p {
+	color: #acacac;
 }
