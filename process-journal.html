@@ -24,7 +24,7 @@
     <meta name="description" content="What you write here will often show up in search results under the page title">
 
   </head>
-  <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset="400">
 
     <!-- This is where our Navbar lives -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
@@ -36,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="./index.html">Home</a>
-            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="./process-journal.html">Portfolio</a>
             <a class="nav-item nav-link active" href="./process-journal.html">Process Journal <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
@@ -52,10 +52,17 @@
         <div class="col-md-3 ml-auto" id="myScrollspy">
           <div class="floating-nav" id="floating-navigation">
             <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link float-nav-link" href="#introduction">Introduction</a></li>
+              <li class="nav-item"><a class="nav-link float-nav-link" href="#the-brief">The Brief</a></li>
               <li class="nav-item"><a class="nav-link float-nav-link" href="#background-research">Background Research</a></li>
-              <li class="nav-item"><a class="nav-link float-nav-link" href="#elaboration">Elaboration</a></li>
-              <li class="nav-item"><a class="nav-link float-nav-link" href="#user-research">User Research</a></li>
-              <li class="nav-item"><a class="nav-link float-nav-link" href="#synthesis">Synthesis</a></li>                                
+              <li class="nav-item"><a class="nav-link float-nav-link" href="#research-findings">Research Findings</a></li>
+              <li class="nav-item"><a class="nav-link float-nav-link" href="#ideation">Ideation</a></li>
+              <li class="nav-item"><a class="nav-link float-nav-link" href="#lowfi">Low Fidelity Prototype</a></li>
+              <li class="nav-item"><a class="nav-link float-nav-link" href="#user-test-1">User Testing 1</a></li>
+              <li class="nav-item"><a class="nav-link float-nav-link" href="#digital-prototype">Digital Prototype</a></li>
+              <li class="nav-item"><a class="nav-link float-nav-link" href="#user-test-2">User Testing 2</a></li>
+              <li class="nav-item"><a class="nav-link float-nav-link" href="#highfi">High Fidelity Prototype</a></li>
+              <li class="nav-item"><a class="nav-link float-nav-link" href="#final-iteration">Final Iteration</a></li>                                  
             </ul>
           </div>
         </div>
@@ -68,16 +75,27 @@
             </div>
           </div>
 
-          <div class="row section-heading">
+          <div class="row section-heading" id="introduction">
             <div class="col-md-12">
               <h3>Introduction</h3>
             </div>
           </div>
-
           <div class="row">
             <div class="col-md-12">
-              <p>In recent years, there has been an increasing number of people participating in online shopping. With today’s rapid urbanisation and continual construction of high-rise urban dwellings such as apartments, we believe that delivery services to apartments will be a unique problem scenario that may arise from the convergence of these two phenomena.</p>
-              <p>Incidentally, companies such as Amazon, Google, DHL and Australia Post have already begun exploring drone delivery technologies.</p>
+              <p>Hi there! Welcome to my process journal for DECO2200: Interaction Design Studio. Here you will find my brief documentation and reflections on the past few weeks of this project.</p>
+            </div>
+          </div>
+
+          <div class="row section-heading" id="the-brief">
+            <div class="col-md-12">
+              <h3>The Brief</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>The focus of this design project was on designing and prototyping screen-based interfaces that enable interactions with autonomous vehicles.</p>
+              <p>Going by the design brief, we came up with a few concepts, ranging from autonomous book returning services in libraries to event clean-up drones and food trucks.</p>
+              <p>We explored these concepts and talked about them in our group, eventually settling on an autonomous drone delivery service as we felt that it was more relatable to us and applicable to the kind of potential research participants that we had access to, given that the nature of this brief was based in the future and rather hypothetical.</p>
             </div>
           </div>
 
@@ -86,98 +104,77 @@
               <h3>Background Research</h3>
             </div>
           </div>
-
-          <div class="row">
-            <div class="col-md-6">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor posuere ac ut consequat semper viverra. Lacus sed turpis tincidunt id. Vitae turpis massa sed elementum tempus egestas sed sed risus. Nibh venenatis cras sed felis eget velit. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Feugiat nibh sed pulvinar proin gravida hendrerit. Enim diam vulputate ut pharetra sit.</p>
-            </div>
-            <div class="col-md-6">
-              <img src="./img/process-journal/background_research.jpg" class="img-fluid" alt="Responsive image">
-              <span class="img-caption">Figure 1.1 - Sally using an academic database</span>
-            </div>
-          </div>
-
           <div class="row">
             <div class="col-md-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor posuere ac ut consequat semper viverra. Lacus sed turpis tincidunt id. Vitae turpis massa sed elementum tempus egestas sed sed risus. Nibh venenatis cras sed felis eget velit. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Feugiat nibh sed pulvinar proin gravida hendrerit. Enim diam vulputate ut pharetra sit.</p>
+              <p>The first step was to conduct some background research for our chosen concept of drone deliveries to apartments.</p>
+              <p>Each of us chose 2 methods of research – one quantitative one qualitative, so as to better triangulate our results. The qualitative method of semi-structured interviews was the same for the three of us. For the quantitative method however, we were tasked to each choose a distinct one for our user research – as part of the learning process as well as to ensure our results were accurate to some degree.</p>
+              <p>Chris picked contextual observations, Daniel picked surveys, and I picked statistical analysis of existing sources. I was lucky to know a few people who lived in apartments.</p>
+              <p>The objective of this research was to understand the behaviours, experiences and attitudes of people towards parcel delivery from online purchases, with a focus on apartments in Australia.</p>
+              <p>Some of my research questions included:
+                <ul id="research-questions">
+                  <li>Who shops online? (to establish key demographic)</li>
+                  <li>What is the process of shopping online? (to understand current processes, contact points and behaviours)</li>
+                  <li>How do people feel about the way deliveries to apartments are currently done? (to draw insights on the attitudes towards the current state)</li>
+                  <li>What are some of the common delivery experiences? (to find out user pains with current system)</li>
+                </ul>
+              </p>
             </div>
           </div>
 
-
-          <div class="row section-heading" id="elaboration">
+          <div class="row section-heading" id="research-findings">
             <div class="col-md-12">
-              <h3>Elaboration</h3>
+              <h3>Research Findings</h3>
             </div>
           </div>
-
-
           <div class="row">
             <div class="col-md-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor posuere ac ut consequat semper viverra. Lacus sed turpis tincidunt id. Vitae turpis massa sed elementum tempus egestas sed sed risus. Nibh venenatis cras sed felis eget velit. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Feugiat nibh sed pulvinar proin gravida hendrerit. Enim diam vulputate ut pharetra sit.</p>
+              <p>The data I had collected was compiled and synthesised into an affinity diagram.</p>
+              <img src="./img/process-journal/affinity diagram 1.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 1.1 - Affinity Diagram from background research</span>
+              <p>The affinity diagram consisted of data and insights collected from the interview transcripts as well as a report by AusPost on the recent state of e-commerce spending in Australia.</p>
+              <p>The exercised revealed that the users key concerns and needs were about <em><b>Convenience</b></em>, <em><b>Flexibility</b></em> and <em><b>Security</b></em>.</p>
             </div>
           </div>
-
           <div class="row">
-            <div class="col-md-6">
-              <img src="./img/process-journal/background_research_whiteboard.jpg" class="img-fluid" alt="Responsive image">
-              <span class="img-caption">Figure 2.2 - Nick exploring ideas</span>
-            </div>
-            <div class="col-md-6">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec feugiat nisl pretium fusce id velit ut tortor pretium. </p>
+              <div class="col-md-12">
+              <p>I was able to craft 2 personas and a storyboard out of the insights I had gathered.</p>
+              <img src="./img/process-journal/drone persona.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 1.2 - Personas</span>
+              <br><br><br>
+              <img src="./img/process-journal/delivery.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 1.3 - Storyboard</span>
+              <p>The interviews went smoothly, and I was able to gather a lot of data. However, I struggled with the quantitative method of statistical analysis. Although I managed to extract some important data from a report that I had found which supported some of the insights from the interviews, the process of sourcing for reports was difficult. I don’t think that this method was well suited for the purposes of this research. Given the choice, I think surveys would make more sense.</p>
+              <p>We then came together and combined our individual insights and results, conducting a mind mapping session to confirm which were the most common user needs.</p>
             </div>
           </div>
-
-          <div class="row slide-show">
-            <div class="col-md-12">
-              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="./img/process-journal/carousel-images1/people-working-1.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./img/process-journal/carousel-images1/people-working-2.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./img/process-journal/carousel-images1/people-working-3.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>                
-            </div>
-          </div>   
-
           <div class="row">
             <div class="col-md-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor posuere ac ut consequat semper viverra. Lacus sed turpis tincidunt id. Vitae turpis massa sed elementum tempus egestas sed sed risus. Nibh venenatis cras sed felis eget velit. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Feugiat nibh sed pulvinar proin gravida hendrerit. Enim diam vulputate ut pharetra sit.</p>
+              <p>The data I had collected was compiled and synthesised into an affinity diagram.</p>
+              <img src="./img/process-journal/mindmap.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 1.4 - Mindmap</span>
+              <p>Combined list of user needs:
+                <ul id="research-questions">
+                  <li>I need to know that my parcel is securely delivered (reassuring)</li>
+                  <li>I need to know accurate, real-time status of my parcel delivery (reassuring)</li>
+                  <li>I need options to fit my schedule (convenient)</li>
+                  <li>I need my parcel delivered directly to my apartment (convenient)</li>
+                </ul>
+              </p>
+              <p>Having now confirmed a list of user needs, we crafted an HMW problem statement of:</p>
+              <p style="font-weight: 500;">“How might we create and apartment delivery experience that is reassuring and convenient for apartment residents?</p>
             </div>
-          </div>                     
-              
+          </div>                   
 
-          <div class="row section-heading" id="user-research">
+          <div class="row section-heading" id="ideation">
             <div class="col-md-12">
-              <h3>User Research</h3>
+              <h3>Ideation</h3>
             </div>
           </div>
-
-
           <div class="row">
             <div class="col-md-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor posuere ac ut consequat semper viverra. Lacus sed turpis tincidunt id. Vitae turpis massa sed elementum tempus egestas sed sed risus. Nibh venenatis cras sed felis eget velit. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Feugiat nibh sed pulvinar proin gravida hendrerit. Enim diam vulputate ut pharetra sit.</p>
+              <p>Our group then split up to each think of three high level ideas for the drone delivery concept. This was what we came up with.</p>
             </div>
           </div>
-
           <div class="row slide-show">
             <div class="col-md-12">
               <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
@@ -188,13 +185,13 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="./img/process-journal/carousel-images2/user-research-1.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
+                    <img class="d-block w-100" src="./img/process-journal/carousel-images2/storyboard1.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="./img/process-journal/carousel-images2/user-research-2.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+                    <img class="d-block w-100" src="./img/process-journal/carousel-images2/storyboard2.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="./img/process-journal/carousel-images2/user-research-3.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+                    <img class="d-block w-100" src="./img/process-journal/carousel-images2/storyboard3.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
@@ -205,49 +202,133 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
-              </div>                
+              </div>
+              <span class="img-caption">Figure 1.5, 1.6, 1.7 - Idea One, Idea Two, Idea Three (in order)</span>              
             </div>
           </div>   
-
           <div class="row">
             <div class="col-md-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor posuere ac ut consequat semper viverra. Lacus sed turpis tincidunt id. Vitae turpis massa sed elementum tempus egestas sed sed risus. Nibh venenatis cras sed felis eget velit. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Feugiat nibh sed pulvinar proin gravida hendrerit. Enim diam vulputate ut pharetra sit.</p>
+              <p>Comparing the pros and cons of each idea, we eventually came to the conclusion that Idea One was the strongest, as it did not involve having to drastically reconfigure existing infrastructure, given how diverse they currently already are. There is also an assumption that apartments would change to fit autonomous drone technology, when in fact it would most likely be the opposite.</p>
+              <p>Next, we conducted an affinity diagramming exercise (with a slight variation) to understand and develop the sort of information architecture we needed for our solution concept – Idea One.</p>
+              <p>Idea One was a drone delivery service for apartments that offered package deliveries straight to the balconies of its residents, including times outside of normal business hours.</p>
             </div>
           </div>   
-
-          <div class="row">
-            <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor posuere ac ut consequat semper viverra. </p>
-            </div>
-            <div class="col-md-8">
-              <iframe width="100%" height="400" src="https://www.youtube.com/embed/nhg9ecOh-oA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          </div> 
-
-
-
-          <div class="row section-heading" id="synthesis">
-            <div class="col-md-12">
-              <h3>Synthesis</h3>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor posuere ac ut consequat semper viverra. Lacus sed turpis tincidunt id. Vitae turpis massa sed elementum tempus egestas sed sed risus. Nibh venenatis cras sed felis eget velit. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Feugiat nibh sed pulvinar proin gravida hendrerit. Enim diam vulputate ut pharetra sit.</p>
-            </div>
-            <div class="col-md-6">
-              <img src="./img/process-journal/background_research.jpg" class="img-fluid" alt="Responsive image">
-              <span class="img-caption">Figure 4.1 - Sally</span>
-            </div>
-          </div>
-
           <div class="row">
             <div class="col-md-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor posuere ac ut consequat semper viverra. Lacus sed turpis tincidunt id. Vitae turpis massa sed elementum tempus egestas sed sed risus. Nibh venenatis cras sed felis eget velit. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Feugiat nibh sed pulvinar proin gravida hendrerit. Enim diam vulputate ut pharetra sit.</p>
+              <img src="./img/process-journal/drone delivery flow.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 1.8 - Mindmap</span>
+              <p>We concluded that there were 3 different phases – Delivery Options, Tracking Delivery and Receiving Delivery.</p>
+              <p>Based on the information and structure that we now had, we created two general flow concepts. These two concepts differed in which point of the process the user was asked to set their specific delivery location. In Concept 1, the user was asked for their specific delivery location during the order phase. In Concept 2, the user was asked to set their specific delivery location only after they had placed their order and downloaded the app. We felt that this was something unique to the nature of drone deliveries, in that they are not limited to delivering exclusively only to preset collection points.</p>
             </div>
           </div>
 
+          <div class="row section-heading" id="lowfi">
+            <div class="col-md-12">
+              <h3>Low Fidelity Prototype</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>Based on the information and structure that we now had, we created two general flow concepts. These two concepts differed in which point of the process the user was asked to set their specific delivery location. In Concept 1, the user was asked for their specific delivery location during the order phase. In Concept 2, the user was asked to set their specific delivery location only after they had placed their order and downloaded the app. We felt that this was something unique to the nature of drone deliveries, in that they are not limited to delivering exclusively only to preset collection points.</p>
+            </div>
+            <div class="col-md-12">
+              <img src="./img/process-journal/concept 1.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 1.9 - Concept 1</span>
+            </div>
+            <br><br><br>
+            <div class="col-md-12">
+              <img src="./img/process-journal/concept 2.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 2.1 - Concept 2</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>Next, we started to sketch out a few different low fidelity UI screens based on the interactions and functions the users would need to perform. This allowed us to explore some unique aspects and features of the UI coming from the autonomous nature of drones.</p>
+              <p>We explored concepts on how the user would select their delivery locations, dabbling in concepts involving AR and 3D GPS, as well as selecting time and date. We weighed the pros and cons of each design and chose the screens that we would use for the initial paper prototype.</p>
+              <img src="./img/process-journal/UIsketch.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 2.2 - UI Sketches</span>
+              <p>The paper prototype was created using the Marvel app. We drew each screen by hand and took a photo of each screen, stitching them together in the app, which allowed us to simulate actual clickable links via “hotspots”.</p>
+              <img src="./img/process-journal/hand drawn.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 2.3 - Marvel Protoype</span>
+              <p>Hand drawing the screens proved to be quite a laborious task, as we tried to render them as neatly as possible to simulate a real digital experience. Reflecting on this process, I think we missed the point of it being a method of “rapid prototyping”. Perhaps we could have spent less time on making it look pretty.</p>
+            </div>
+          </div>
+
+          <div class="row section-heading" id="user-test-1">
+            <div class="col-md-12">
+              <h3>User Testing 1</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>Once the low fidelity prototype was created, we conducted a user testing session with 5 participants, using the think aloud protocol combined with usability testing. The participants chosen had to have experience with deliveries in apartments and delivery apps in general. They were split into two groups, one testing concept 1 then concept 2, and the other doing the opposite.</p>
+              <p>The general response from the first round of user testing was that the app was fairly simple to use, apart from issues of having too many “confirmations”. 3 out of 5 people were happy with the level of detail provided and found it more reliable but were annoyed that they were not able to visualize the progress of the order process. The fact that we followed existing online shopping and delivery service conventions benefitted us in this case as users did not have to re-learn certain tasks, which was also why the app seemed easy to use.</p>
+              <p>During the testing process, some users were distracted from the way the paper prototype looked, instead of the app experience itself. To avoid this, I think the first round of user testing should at least be a digital wireframe – to eliminate other factors such as aesthetic consistency, which can greatly affect the perception of an app or service, especially if its digital and important content (which may be difficult to read) is involved.</p>
+              <p>Following the user testing, we conducted a feedback session among the three of us to talk about how the testing went and what we could do better in terms of carrying out the method. Our first round of testing was a combination of the think aloud protocol and usability testing. During the test, we noticed users were having trouble with the think aloud method and actively verbalising their thoughts, which may have potentially reduced the number of insights we would have gotten. This was a learning point for us – soft skills such as reading the body language of the test participants and tweaking our way of communication and testing with them was very important for tests of this nature, striking a balance between the level of hand-holding, prompts and engagement.</p>
+            </div>
+          </div>
+
+          <div class="row section-heading" id="digital-prototype">
+            <div class="col-md-12">
+              <h3>Digital Prototype</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>We then started creating the first version of digital wireframes, taking into consideration the feedback we got from the first round of testing and iterating our design.</p>
+              <p>Some of the changes we made included adding a progress bar in the setup process and removing redundant screens and confirmation buttons.</p>
+              <img src="./img/process-journal/progressbar.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 2.4 - Progress Bar</span>
+              <p>We created the first digital prototype by uploading these screens to InVision.</p>
+              <img src="./img/process-journal/digitalw.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 2.5 - UI Sketches</span>
+              <p>For this round of user testing, the goal was to gather insights on the usability of each screen. We wanted to focus on the more visual aspects and intuitive nature of our screens and understanding the kind of design patterns users were more accustomed to for a better overall experience that made sense to the user.</p>
+            </div>
+          </div>
+
+          <div class="row section-heading" id="user-test-2">
+            <div class="col-md-12">
+              <h3>User Testing 2</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>Working on the learnings from the first round of user testing, we created an improved and more structured user testing template for our usability testing and think aloud protocol. We made sure to cover all scenarios and note down potential prompt questions, taking steps to make sure that we could extract as much data as possible.</p>
+              <p>We ended up being quite successful in the usability testing this time round, gathering much more data which informed some key insights. Some of the insights included users being annoyed at too many summary/invoice screens, multiple deliveries, as well as being confused at the process of signing off remotely (a few had thought that they had to be physically present to sign off – a product of us not communicating the scenario properly).</p>
+            </div>
+          </div>
+
+          <div class="row section-heading" id="highfi">
+            <div class="col-md-12">
+              <h3>High Fidelity Prototype</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>Following the feedback, we made further changes to our digital wireframe. We combined the delivery address information with the package contents information into the same screen using a card system, reducing the number of screens while retaining the information which users felt was important. We also added a navigation bar and the ability to track multiple deliveries.</p>
+              <p>As we began the process of converting our mid fidelity digital wireframes into a high-fidelity version, we conducted our own session of further scrutinising our design. We sought feedback from our tutors and got them to test our InVision prototype.</p>
+            </div>
+            <div class="col-md-12">
+              <p>Based on their feedback, we continued the iterative process, and made progress with making the experience more user friendly by streamlining the entire experience.</p>
+              <p>We also sourced for inspiration on the look and feel of our next stage of iteration, experimenting with colours, styles and animations.</p>
+              <img src="./img/process-journal/colours.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 2.7 - Experiments with style</span>
+            </div>
+          </div>
+
+          <div class="row section-heading" id="final-iteration">
+            <div class="col-md-12">
+              <h3>Final Iteration</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>While we wanted to go for a dark UI, we had trouble fitting that into the design of our screens; we eventually ended up with a light UI, keeping it fun and illustrative, also creating some level of branding (which can be viewed on our <a href="https://chris-holmes.github.io/drone-delivery.github.io/companion-website.html" style="text-decoration: underline; color: #37C9C9;">companion website page</a>).</p>
+              <img src="./img/process-journal/mockups1.png" class="img-fluid" alt="Responsive image">
+              <span class="img-caption">Figure 2.8 - Final screens</span>
+              <p>During the process of creating a high-fidelity interactive prototype, we tested out a few different tools like framer. However, although these tools were powerful, due to time constraints, we were unable to overcome the learning curve and instead opted for a tool we were familiar with. We were able to create a final video leveraging the InVision web app and Daniel’s expertise in After Effects animations to deliver a more holistic high-fidelity experience of our drone delivery service.</p>
+            </div>
+          </div>
           <!-- End Content -->
         </div>
 
@@ -261,7 +342,7 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <p>&copy; 2018 Yida Tan</p>
           </div>
         </div>  

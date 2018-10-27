@@ -5,6 +5,10 @@ body{
 	padding-top: 80px;
 }
 
+#dot {
+	color: #37C9C9;
+}
+
 /*Home*/
 .full-page-bg {
   position: absolute;
@@ -75,7 +79,7 @@ a.navbar-brand{
 /*Floating Nav*/
 .floating-nav{
 	position: fixed;
-	margin-top: 50px;
+	margin-top: 45px;
 }
 
 a.float-nav-link{
@@ -83,17 +87,18 @@ a.float-nav-link{
 	color: #000;
 	font-size: 14px;
 	font-weight: 300;
-	text-align: left;
+	text-align: right;
+	padding: none;
+	margin: 2px;
+	border-right: 4px solid transparent;
 }
 
 a.float-nav-link:hover{
-	border-left: 4px solid #37C9C9;
+	border-right: 4px solid #37C9C9;
 }
 
 a.float-nav-link.active{
-	color: #37C9C9;
-	font-weight: bold;
-	border-left: 4px solid #37C9C9;
+	border-right: 4px solid #37C9C9;
 }
 
 /*Image Rules*/
@@ -110,8 +115,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0px;
 }
 	h1.welcome-special{
-		font-size: 100px;
+		font-size: 80px;
 		color: #000;
+		letter-spacing: 15px;
+		font-weight: bold;
 	}
 
 	h2.welcome-special-sub{
@@ -120,6 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 		font-weight: lighter;
 		color: #000;
 		text-transform: lowercase;
+		margin-bottom: 20px;
 	}
 
 	h3{
@@ -147,9 +155,14 @@ span.img-caption{
 	padding: 10px 0px 10px 0px;
 }
 
+#research-questions li{
+	list-style-type: square;
+	padding: 5px;
+}
+
 /*Container/class etc Override Rules*/
 .welcome-message{
-	margin-top: 200px;
+	margin-top: 250px;
 }
 
 .welcome-button-container{
@@ -182,11 +195,12 @@ span.img-caption{
 }
 
 .master-heading{
-	padding-top: 50px;
+	padding-top: 60px;
+	padding-bottom: 10px;
 }
 
 .section-heading{
-	padding-top: 105px;
+	padding-top: 100px;
 	padding-bottom: 15px;
 }
 
@@ -196,13 +210,31 @@ span.img-caption{
 
 /*Footer*/
 .footer{
-	margin-top: 50px;
+	margin-top: 100px;
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
 	background-color: #363636;
 }
 
-.footer p {
+.footer p{
 	color: #acacac;
+}
+
+/*Contact*/
+#contact {
+	text-align: center;
+	padding-top: 120px;
+}
+
+#contact h3 {
+	font-size: 40px;
+	padding-bottom: 50px;
+}
+
+.square{
+	height: 3px;
+  	width: 500px;
+	background-color: #37C9C9;
+	margin: 0 auto;
 }
